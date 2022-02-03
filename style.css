@@ -1,0 +1,38 @@
+body {
+    display: block;
+    font-family: Roboto;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+button {
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #000;
+    color:aliceblue;
+}
+.button {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    
+}
+#reset {
+    margin-left: 10px;
+    margin-right: 10px;
+}
